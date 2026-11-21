@@ -1,5 +1,10 @@
 # Change Logs
 
+## v0.0.3
+
+ - pin `d3-force-boundary` to 0.0.3 ( it was unversioned, so the latest was loaded; 0.0.3 is what was loaded already, layout unchanged )
+ - devDependencies: @makechart/viewer ^0.0.8 ( every case checks mod.tabinfo ), refresh the test snapshots ( they were taken with d3-force 3.0.1 / d3-force-boundary 0.0.2 from node_modules, now the declared versions are loaded )
+
 ## v0.0.2
 
  - extend the lite base ( `@makechart/base` `lite/index.html`, no d3 ): needs `@makechart/base` >= 0.2.0
